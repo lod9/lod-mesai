@@ -1,0 +1,65 @@
+#container {
+    background-color: #1d1e22;
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    margin-left: -160px;
+    margin-top: -70px;
+}
+
+.yazi {
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    top: 10px;
+    left: 92px;
+}
+
+input[type="checkbox" i] {
+    position: relative;
+    opacity: 0%;
+}
+
+.lod {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    margin-top: 41px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    -webkit-transition: .4s;
+    transition: .4s;
+    z-index: 2;
+}
+
+input:checked+.lod {
+    background-color: #e2ebff;
+    margin-left: 41px;
+    margin-top: 41px;
+}
+
+.arkaplan {
+    position: relative;
+    background-color: #1f5eff;
+    width: 67px;
+    height: 25px;
+    border-radius: 15px;
+    top: -22px;
+}
+
+#kaydet {
+    position: relative;
+    background-color: #1f5eff;
+    border: #1f5eff;
+    color: #fff;
+    border-radius: 10px;
+    width: 67px;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    top: -5px;
+}
